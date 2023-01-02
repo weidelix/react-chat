@@ -3,15 +3,13 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
-	margin: 0;
-  min-height: 100vh;
+  height: 100%;
 }
 
 .container {
 	display: grid;
 	grid-template-columns: 20% 80%;
-	min-height: 100vh;
+	height: 100%;
 }
 
 .contacts {
@@ -24,4 +22,23 @@
 	height: 100%;
 	background-color: rgb(236, 236, 236);
 
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+	margin: 5px 10px;
+	width: 90%;
+	height: 40px;
+	padding: 10px;
+	border-radius: 8px;
+	background-color: rgb(236, 236, 236);
+}
+
+.circle {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: rgb(121, 121, 255);
+	margin-right: 10px;
 }
